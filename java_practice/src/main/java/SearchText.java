@@ -12,8 +12,8 @@ public class SearchText {
     Scanner sc = new Scanner(System.in);
     String s;
     String []text;
-    String ex;
-    char charArr[];
+    String ex ;
+    char charArr[] ;
     HashMap<Character,Integer> map;
 
     String[] inputText(){

@@ -6,7 +6,7 @@ import java.util.Map;
  */
 class ValueComparator implements Comparator<Character> {
 
-    Map<Character, Integer> base;
+    Map<Character, Integer> base ;
     public ValueComparator(Map<Character, Integer> base) {
         this.base = base;
     }
